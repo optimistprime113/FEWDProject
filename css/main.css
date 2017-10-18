@@ -26,7 +26,7 @@ h1 {
 }
 
 h2 {
-  margin: 0 0 10px 0;
+  margin: 20px 0 10px 0;
   text-align: center;
   font-size: 24px;
 }
@@ -88,10 +88,15 @@ label.light {
   display: inline;
 }
 
+.bio-text {
+  font-weight: 300;
+  display: inline;
+}
+
 footer {
   max-width: 300px;
   text-align:center;
-  margin: auto;
+  margin: 30px auto;
   position:relative;
   margin-bottom: 75px;
 }

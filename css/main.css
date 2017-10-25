@@ -1,11 +1,12 @@
 /**--Photo by Paul Volkmer on Unsplash--!**/
 
+/**--box sizing normalization--!**/
 *, *:before, *:after {
   -moz-box-sizing: border-box;
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
 }
-
+/**--body content sizing, font and setting background as image--**/
 body {
   font-family: 'Droid Sans', sans-serif;
   color: #FFFD00;
@@ -15,22 +16,18 @@ body {
   margin: 10px auto;
   padding: 10px 20px;
 }
-
-form {
-  max-width: 300px;
-}
-
+/**--main heading formatting--**/
 h1 {
   margin: 0 0 30px 0;
   text-align: center;
 }
-
+/**--secondary heading formatting--**/
 h2 {
   margin: 20px 0 10px 0;
   text-align: center;
   font-size: 24px;
 }
-
+/**--form text box input formatting--**/
 input[type="text"],
 input[type="email"] {
   background: #000;
@@ -46,13 +43,13 @@ input[type="email"] {
   box-shadow: 0 1px 0 #000 inset;
   margin-bottom: 30px;
 }
-
+/**--form radio and checkbox formatting--**/
 input[type="radio"],
 input[type="checkbox"] {
   margin: 0 4px 8px 0;
   color: #FFFD00;
 }
-
+/**--form submit button formatting--**/
 button {
   padding: 20px 40px 20px 40px;
   color: #000;
@@ -67,32 +64,27 @@ button {
   box-shadow: 0 -1px 0 #FFFD00 inset;
   margin-bottom: 10px;
 }
-
+/**--form fields formatting--**/
 fieldset {
   margin-bottom: 30px;
   border: none;
 }
-
-legend {
-  font-size: 1.4em;
-  margin-bottom: 10px;
-}
-
+/**--first level form options formatting--**/
 label {
   display: block;
   margin-bottom: 8px;
 }
-
+/**--second level form options formatting--**/
 label.light {
   font-weight: 300;
   display: inline;
 }
-
+/**--about page paragraphing formatting--**/
 .bio-text {
   font-weight: 300;
   display: inline;
 }
-
+/**--high level footer formatting--**/
 footer {
   max-width: 300px;
   text-align:center;
@@ -100,39 +92,34 @@ footer {
   position:relative;
   margin-bottom: 75px;
 }
-
+/**--footer text formatting--**/
 .footer-text {
   position:absolute;
   left: 30%;
   right: 30%;
 }
-
+/**--facebook image formatting--**/
 .facebook {
   position:absolute;
   left: 15%;
   height: 40px;
   width: 40px;
 }
-
+/**--twitter image formatting--**/
 .twitter {
   position:absolute;
   right: 15%;
   height: 40px;
   width: 40px;
 }
-
+/**--media queries for responsive design--**/
 @media screen and (min-width: 480px) {
-
+/**--body sizing on larger screens--**/
   body {
     max-width: 480px;
   }
-  
-  form {
-    max-width: 480px;
-  }
-
+/**--footer sizing on larger screens--**/
   footer {
     max-width: 480px;
   }
-
 }

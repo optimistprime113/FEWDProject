@@ -79,6 +79,11 @@ label.light {
   font-weight: 300;
   display: inline;
 }
+/**--main page paragraphing formatting--**/
+.news-text {
+  font-weight: 300;
+  display: inline;
+}
 /**--about page paragraphing formatting--**/
 .bio-text {
   font-weight: 300;

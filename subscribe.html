@@ -1,4 +1,6 @@
 <!DOCTYPE html>
+
+<!--Connecting CSS and font and creating title of page-->
 <html>
     <head>
         <meta charset="utf-8">
@@ -8,17 +10,20 @@
         <link href="https://fonts.googleapis.com/css?family=Droid+Sans" rel="stylesheet" type='text/css'>
         <link rel="stylesheet" href="css/main.css">
     </head>
+
+<!--Body of subscription form-->
     <body>
 
     <form action="subscribe.html" method="post">
 
         <h1>Sign Up For Our Newsletter</h1>
+<!--Entering name and email in text form-->
             <Fieldset>
                 <label for="name">Name</label>
                 <input type="text" id="name" name="user_name">
                 <label for="email">Email</label>
                 <input type="email" id="mail" name="user_email">
-
+<!--Entering preferred platform through checkboxes-->
                 <label for="platform">Platform(s) You Listen On</label>
                 <input type="checkbox" id="ApplePod" value="ApplePod" name="apple_pod"> <label for="apple_pod" class="light">Apple Podcasts</label><br>
                 <input type="checkbox" id="StitcherPod" value="StitcherPod" name="stitcher_pod"> <label for="stitcher_pod" class="light">Stitcher Radio</label><br>
@@ -26,6 +31,7 @@
                 <input type="checkbox" id="WebPod" value="WebPod" name="web_pod"> <label for="web_pod" class="light">Our Website</label><br>
                 <input type="checkbox" id="OtherPod" value="OtherPod" name="other_pod"> <label for="other_pod" class="light">Other Method</label>
             </Fieldset>
+ <!--Entering referral method through radio buttons-->           
             <Fieldset>
                 <label for="method">How did you hear about the podcast?</label>
                 <input type="radio" id="WordMouth" value="WordMouth" name="word_mouth"> <label for="word_mouth" class="light">Word of mouth</label><br>
@@ -38,7 +44,7 @@
         <button type="submit">Sign Up</button>
 
     </form>
-
+<!--Footer consistent across pages-->
     <footer>
         <a href="http://facebook.com/jake.fish2"><img src="Pics/facebook-wrap.png" alt="Facebook Logo"  class="facebook"></a>
         <p class="footer-text">&copy; 2017 Jake Fish</p>

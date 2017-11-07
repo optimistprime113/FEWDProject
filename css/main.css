@@ -14,7 +14,7 @@
   background-image: url("../Pics/StarBackground.jpg");
   background-size: 100% 100%;
   margin: 10px auto;
-  padding: 60px 20px;
+  padding: 80px 20px;
 }
 /**--main heading formatting--**/
 h1 {
@@ -64,6 +64,18 @@ button {
   border-width: 1px 1px 3px;
   box-shadow: 0 -1px 0 #FFFD00 inset;
   margin-bottom: 10px;
+}
+#mainpageheader {
+  background-image: url("../Pics/StarBackground.jpg");
+}
+#aboutnav {
+  color: #FFFD00;
+}
+#mainpagenav {
+  color: #FFFD00;
+}
+#subscribenav {
+  color: #FFFD00;
 }
 /**--form fields formatting--**/
 fieldset {

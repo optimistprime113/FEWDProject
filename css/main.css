@@ -7,18 +7,19 @@
   box-sizing: border-box;
 }
 /**--body content sizing, font and setting background as image--**/
-body {
+.text-body {
+  display:block;
   font-family: 'Droid Sans', sans-serif;
   color: #FFFD00;
   background-image: url("../Pics/StarBackground.jpg");
   background-size: 100% 100%;
-  max-width: 300px;
   margin: 10px auto;
   padding: 10px 20px;
 }
 /**--main heading formatting--**/
 h1 {
-  margin: 0 0 30px 0;
+  margin: 0 0 10px 0;
+  padding: 0 0 10px 0;
   text-align: center;
 }
 /**--secondary heading formatting--**/
@@ -87,7 +88,8 @@ label.light {
 /**--about page paragraphing formatting--**/
 .bio-text {
   font-weight: 300;
-  display: inline;
+  margin: 0 0 15px 0;
+  padding: 0 0 15px 0;
 }
 /**--high level footer formatting--**/
 footer {

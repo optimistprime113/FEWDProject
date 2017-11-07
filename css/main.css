@@ -14,7 +14,7 @@
   background-image: url("../Pics/StarBackground.jpg");
   background-size: 100% 100%;
   margin: 10px auto;
-  padding: 80px 20px;
+  padding: 150px 20px;
 }
 /**--main heading formatting--**/
 h1 {
@@ -141,4 +141,11 @@ footer {
   footer {
     max-width: 480px;
   }
+  .navbar-collapse {
+     width: auto;
+ }
+ .text-body {
+  padding: 80px 20px;
+  margin: 60px auto;
+ }
 }

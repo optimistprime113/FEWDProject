@@ -19,7 +19,7 @@
 /**--main heading formatting--**/
 h1 {
   margin: 0 0 10px 0;
-  padding: 0 0 10px 0;
+  padding: 15px 0 10px 0;
   text-align: center;
 }
 /**--secondary heading formatting--**/
@@ -27,6 +27,9 @@ h2 {
   margin: 20px 0 10px 0;
   text-align: center;
   font-size: 24px;
+}
+.nav-link {
+  color:#FFFD00
 }
 /**--form text box input formatting--**/
 input[type="text"],
@@ -66,16 +69,16 @@ button {
   margin-bottom: 10px;
 }
 #mainpageheader {
-  background-image: url("../Pics/StarBackground.jpg");
+  background-color:rgb(255, 0, 0)!important;
 }
 #aboutnav {
-  color: #FFFD00;
+  color: rgb(255, 255, 255);
 }
 #mainpagenav {
-  color: #FFFD00;
+  color: rgb(255, 255, 255);
 }
 #subscribenav {
-  color: #FFFD00;
+  color: rgb(255, 255, 255);
 }
 /**--form fields formatting--**/
 fieldset {
@@ -130,6 +133,9 @@ footer {
   right: 15%;
   height: 40px;
   width: 40px;
+}
+.maintitle {
+  color: rgb(255, 255, 255);
 }
 /**--media queries for responsive design--**/
 @media screen and (min-width: 480px) {

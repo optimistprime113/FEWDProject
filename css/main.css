@@ -69,13 +69,13 @@ button {
   box-shadow: 0 -1px 0 #FFFD00 inset;
   margin-bottom: 10px;
 }
-#mainpageheader {
+#stickyheader {
   background-color:rgb(255, 0, 0)!important;
 }
 #aboutnav {
   color: rgb(255, 255, 255);
 }
-#mainpagenav {
+#indexnav {
   color: rgb(255, 255, 255);
 }
 #subscribenav {

@@ -5,9 +5,13 @@ $overlay.append($image);
 
 $("body").append($overlay);
 
-$("#kuragallery a").click(function(event){
+$("#gallery a").click(function(event){
     event.preventDefault();
-    var kuraselect = $(this).attr("href");
-    $image.attr("src", kuraselect);
+    var select = $(this).attr("href");
+    $image.attr("src", select);
     $overlay.show();
+});
+
+$overlay.click(function(){
+    $overlay.hide();
 });

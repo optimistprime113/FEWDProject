@@ -105,6 +105,10 @@ label.light {
   font-weight: 300;
   display: inline;
 }
+.audiodiv {
+  display: table;
+  margin: 15px auto;
+}
 /**--about page paragraphing formatting--**/
 .bio-text {
   font-weight: 300;

@@ -7,6 +7,15 @@
   box-sizing: border-box;
 }
 /**--body content sizing, font and setting background as image--**/
+#overlay {
+  background-color: rgba(0 0 0 0.7);
+  width:100%;
+  height:100%;
+  position:absolute;
+  top:0;
+  left:0;
+  display:none;
+}
 .text-body {
   display:block;
   font-family: 'Carrois Gothic', sans-serif;
@@ -156,6 +165,7 @@ footer {
 .maintitle {
   color: rgb(255, 255, 255);
 }
+
 /**--media queries for responsive design--**/
 @media screen and (min-width: 480px) {
 /**--body sizing on larger screens--**/

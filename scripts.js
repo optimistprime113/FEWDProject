@@ -1,9 +1,13 @@
-var $kuraoverlay = $('<div id ="kuraoverlay"></div>');
+var $overlay = $('<div id ="overlay"></div>');
+var $image = $("<img>");
 
-$("body").append();
+$overlay.append($image);
 
-$("kuragallery a").click(function(event){
-    event.preventdefault();
+$("body").append($overlay);
+
+$("#kuragallery a").click(function(event){
+    event.preventDefault();
     var kuraselect = $(this).attr("href");
-    console.log;
+    $image.attr("src", kuraselect);
+    $overlay.show();
 });

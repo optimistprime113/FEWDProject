@@ -1,5 +1,6 @@
 var $overlay = $('<div id ="overlay"></div>');
 var $image = $("<img>");
+var $fadeimage = $("#shipflight")
 
 $overlay.append($image);
 
@@ -15,3 +16,6 @@ $("#gallery a").click(function(event){
 $overlay.click(function(){
     $overlay.hide();
 });
+    
+$($window).onload = function() {
+    $fadeimage.fadeIn(3000)};

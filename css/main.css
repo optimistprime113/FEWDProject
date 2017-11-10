@@ -32,10 +32,14 @@
   background-image: url("../Pics/StarBackground.jpg");
   background-size: 100% 100%;
   margin: 10px auto;
-  padding: 20px 20px;
+  padding: 150px 20px;
 }
 #shipflight {
   display:none;
+  max-width: 0;
+  left:0;
+  position:absolute;
+  bottom:20px;
 }
 /**--main heading formatting--**/
 h1 {
@@ -188,10 +192,6 @@ footer {
   .navbar-collapse {
      width: auto;
  }
- .text-body {
-  padding: 80px 20px;
-  margin: 20px auto;
- }
 }
 @media screen and (min-width: 1024px) {
   #shipflight {
@@ -199,6 +199,6 @@ footer {
     left:0;
     position:absolute;
     bottom:20px;
-    display:block;
+    display:none;
 }
 }

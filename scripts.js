@@ -1,5 +1,4 @@
 $(document).ready(function() {
-    If 
     $("#shipflight").fadeIn(4000);
 });
 

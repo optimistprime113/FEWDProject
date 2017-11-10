@@ -10,6 +10,12 @@
 #stickyheader {
   background-color:rgb(190, 14, 14)!important;
 }
+#rebelsym {
+  float:left;
+  width:125px;
+  height:100px;
+  padding: 0 0 0 15px;
+}
 #overlay {
   background-color: rgba(0, 0, 0, 0.7);
   width:100%;

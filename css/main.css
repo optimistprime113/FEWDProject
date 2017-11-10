@@ -44,7 +44,7 @@
   display:none;
   max-width: 0;
   left:0;
-  position:absolute;
+  position:fixed;
   bottom:20px;
 }
 /**--main heading formatting--**/
@@ -201,10 +201,12 @@ footer {
 }
 @media screen and (min-width: 1024px) {
   #shipflight {
-    max-width: 300px;
+    max-width: 30%;
+    max-height: 80%;
     left:0;
-    position:absolute;
-    bottom:20px;
+    position:fixed;
+    bottom:0;
+    padding: 80px 0 80px 30px;
     display:none;
 }
 }

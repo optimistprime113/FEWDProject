@@ -40,6 +40,20 @@
   margin: 10px auto;
   padding: 150px 20px;
 }
+#westsplash {
+  display:none;
+  max-width: 0;
+  right:0;
+  position:fixed;
+  bottom:20px;
+}
+#talsplash {
+  display:none;
+  max-width: 0;
+  right:0;
+  position:fixed;
+  bottom:20px;
+}
 #shipflight {
   display:none;
   max-width: 0;
@@ -208,5 +222,23 @@ footer {
     bottom:0;
     padding: 80px 0 80px 30px;
     display:none;
+}
+#westsplash {
+  max-width: 80%;
+  max-height: 80%;
+  right:100px;
+  position:fixed;
+  bottom:0;
+  padding: 80px 0 80px 30px;
+  display:none;
+}
+#talsplash {
+  max-width: 80%;
+  max-height: 80%;
+  right:100px;
+  position:fixed;
+  bottom:0;
+  padding: 80px 0 80px 30px;
+  display:none;
 }
 }

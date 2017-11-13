@@ -2,6 +2,13 @@ $(document).ready(function() {
     $("#shipflight").fadeIn(4000);
 });
 
+$(document).ready(function() {
+    $("#talsplash").fadeIn(4000);
+});
+$(document).ready(function() {
+    $("#westsplash").fadeIn(4000);
+});
+
 var $overlay = $('<div id ="overlay"></div>');
 var $image = $("<img>");
 

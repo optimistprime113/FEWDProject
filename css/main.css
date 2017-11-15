@@ -13,7 +13,7 @@
   float:left;
   width:125px;
   height:100px;
-  padding: 0 0 10px 15px;
+  padding: 0 10px 10px 15px;
 }
 /**--lightbox overlay formatting--**/
 #overlay {

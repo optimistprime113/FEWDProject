@@ -251,4 +251,13 @@ footer {
   padding: 80px 0 80px 30px;
   display:none;
 }
+#Kö-rasplash {
+  max-width: 80%;
+  max-height: 80%;
+  right:100px;
+  position:fixed;
+  bottom:0;
+  padding: 80px 0 80px 30px;
+  display:none;
+}
 }

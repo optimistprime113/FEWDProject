@@ -10,6 +10,9 @@ $(document).ready(function() {
 $(document).ready(function() {
     $("#westsplash").fadeIn(4000);
 });
+$(document).ready(function() {
+    $("#Kö-rasplash").fadeIn(4000);
+});
 
 //Lightbox overlay and function
 

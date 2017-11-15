@@ -1,4 +1,4 @@
-//Side Picture fade in function
+//Side Picture fade in functions
 
 $(document).ready(function() {
     $("#shipflight").fadeIn(4000);

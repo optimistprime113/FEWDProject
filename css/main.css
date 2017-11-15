@@ -223,7 +223,7 @@ footer {
 /**--picture sizing on larger screens--**/
 @media screen and (min-width: 1024px) {
   #shipflight {
-    max-width: 30%;
+    max-width: 25%;
     max-height: 80%;
     left:0;
     position:fixed;

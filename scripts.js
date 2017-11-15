@@ -1,3 +1,5 @@
+//Side Picture fade in function
+
 $(document).ready(function() {
     $("#shipflight").fadeIn(4000);
 });
@@ -8,6 +10,8 @@ $(document).ready(function() {
 $(document).ready(function() {
     $("#westsplash").fadeIn(4000);
 });
+
+//Lightbox overlay and function
 
 var $overlay = $('<div id ="overlay"></div>');
 var $image = $("<img>");

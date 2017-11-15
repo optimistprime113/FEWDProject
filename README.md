@@ -1,1 +1,1 @@
-# FEWDProject
+# A website for a potential podcast project in the future. Built to make it easy to navigate to find episodes and information about the podcast.

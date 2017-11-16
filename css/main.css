@@ -76,6 +76,13 @@
   position:fixed;
   bottom:20px;
 }
+#Kö-rasplash {
+  display:none;
+  max-width: 0;
+  right:0;
+  position:fixed;
+  bottom:20px;
+}
 #shipflight {
   display:none;
   max-width: 0;
